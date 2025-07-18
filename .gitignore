@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and virtual environments
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff:
+*.sqlite3      # SQLite DB files
+db.sqlite3
+
+# Media and static files (if you store them locally)
+media/
+staticfiles/
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# C extensions
+*.so
+
+# MacOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Local Django secret key file if any
+secret_key.txt
+
+# Django migrations (optional: include or exclude)
+**/migrations/
+!**/migrations/__init__.py
